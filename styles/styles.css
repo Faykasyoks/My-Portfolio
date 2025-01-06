@@ -1,16 +1,19 @@
-*{
+/* Global Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
- body{
-    background: rgb(18, 2, 73);
+/* Body Styling */
+body {
+    background: #182e4e;
     color: whitesmoke;
- }
+}
 
- .header{
+/* Header Section */
+.header {
     display: flex;
     position: fixed;
     width: 100%;
@@ -22,76 +25,75 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
- }
+}
 
-    .header .logo{
-        color: whitesmoke;
-        text-transform: uppercase;
-        font-weight: 600;
-        font-size: 25px;
-        text-decoration: none;
-    }
+.header .logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+}
 
-    .navbar a{
-        color: whitesmoke;
-        text-decoration: none;
-        margin-left: 35px;
-        transition: all 0.3s ease;
-        font-weight: 500;
-        font-size: 17px;
-    }
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
 
-    .navbar a:hover{
-        color: #0f9ef1;
-    }
+.navbar ul li {
+    margin-right: 20px;
+}
 
-    .navbar ul{
-        display: flex;
-        list-style: none;
-    }
+.navbar a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 17px;
+}
 
-    .navbar ul li{
-        margin-right: 20px;
-    }
+.navbar a:hover {
+    color: #0f9ef1;
+}
 
-    .home{
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0 10%;
-    }
+/* Home Section */
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+}
 
-.home-text{
-    /* background: rgb(158, 224, 25); */
+.home-text {
     width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
+    margin-left: 10px;
 }
 
-.home-text h1{
+.home-text h1 {
     font-size: 55px;
     font-weight: 700;
     text-align: center;
     line-height: 1.2;
 }
 
-.home-text h3{
+.home-text h3 {
     font-size: 25px;
     font-weight: 600;
     color: #288dc7;
 }
 
-.home-text p{
+.home-text p {
     font-size: 16px;
     margin: 20px 0 40px;
-
 }
 
-.home-text .btn{
+.home-text .btn {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -106,14 +108,14 @@
     transition: all 0.3s ease;
 }
 
-.btn a{
+.btn a {
     position: relative;
     color: whitesmoke;
     text-decoration: none;
     width: 150px;
     height: 100%;
     background: #0f9ef1;
-    display:inline-flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -123,15 +125,13 @@
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
-
-
 }
 
-.btn a:hover{
+.btn a:hover {
     color: #0f9ef1;
 }
 
-.btn a::before{
+.btn a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -144,13 +144,17 @@
     transition: all 0.3s ease;
 }
 
-img{
-    width: 100%;
-    height: 100%;
+img {
+    width: 300px;
+    height: 50%;
     object-fit: cover;
 }
 
-.homeicons{
+/* Social Media Icons */
+.homeicons {
+    position: absolute;
+    bottom: 40px;
+    width: 175px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -159,21 +163,42 @@ img{
     margin-top: 20px;
 }
 
+.homeicons i {
+    font-size: 15px;
+    color: #0f9ef1;
+    transition: all 0.3s ease;
+}
 
+.homeicons a {
+    position: relative;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    color: aqua;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
 
+.homeicons a:hover {
+    border: 2px solid #0f9ef1;
+    color: black;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.homeicons a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #3c86b8;
+    z-index: -1;
+    transition: 0.3s;
+}
