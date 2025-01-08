@@ -140,7 +140,12 @@ body {
 }
 
 .about-text p {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.about-text strong{
+    color: rgb(185, 21, 21);
 }
 
 .about-image img {
@@ -172,6 +177,13 @@ body {
 .service-item h3 {
     margin-bottom: 10px;
     color: #0f9ef1;
+    font-size: 19px;
+}
+
+.service-item img{
+    height: 300px;
+    max-width: 90;
+    margin: 2px 2px 2px 2px;
 }
 
 /* Contact Section */
@@ -204,7 +216,7 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 18px;
 }
 
 button.btn {
