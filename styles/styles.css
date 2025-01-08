@@ -102,8 +102,12 @@ body {
 
 .home-icons {
     display: flex;
-    gap: 10px;
+    gap: 30%;
     margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
 }
 
 .home-icons a {
@@ -113,7 +117,7 @@ body {
 }
 
 .home-icons a:hover {
-    color: #0f9ef1;
+    color: #f33282;
 }
 
 .home-image img {
@@ -139,9 +143,17 @@ body {
     flex: 1;
 }
 
+.about-text H2{
+    color: rgb(238, 148, 13);
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: gold;
+    line-height: 1.5;
+}
+
 .about-text p {
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 21px;
 }
 
 .about-text strong{
@@ -180,9 +192,15 @@ body {
     font-size: 19px;
 }
 
+.service-item p{
+    background-color: #0b2a58;
+    text-align: left;
+    font-size: 21px;
+}
+
 .service-item img{
     height: 300px;
-    max-width: 90;
+    max-width: 100%;
     margin: 2px 2px 2px 2px;
 }
 
@@ -258,5 +276,12 @@ button.btn:hover {
         flex-direction: column;
         gap: 10px;
         align-items: flex-start;
+    }
+
+
+    .service-item img{
+        height: 150px;
+        max-width: 100;
+        margin: 2px 2px 2px 2px;
     }
 }
