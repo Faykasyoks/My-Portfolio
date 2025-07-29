@@ -19,8 +19,8 @@
 
 /* Body Styling */
 body {
-    background: #182e4e;
-    color: whitesmoke;
+    background-image: url(../images/Background.jpg);
+    color: rgb(172, 8, 8);
     line-height: 1.6;
     overflow-x: hidden;
 }
