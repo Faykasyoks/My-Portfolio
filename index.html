@@ -1,155 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Faith Kasyoka - Web Developer Portfolio">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>Faith Kasyoka | IT Expert</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faith Clifford - ICT Graduate & Web Developer Portfolio</title>
+  <meta name="description" content="Faith Clifford - ICT Graduate specializing in web development, system support, and IT solutions. Aspiring Front-End Developer with hands-on experience.">
+  <meta name="keywords" content="ICT Graduate, Web Developer, System Support, HTML CSS JavaScript, Faith Clifford">
+  <meta name="author" content="Faith Clifford">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Faith Clifford - ICT Consultant & Developer">
+  <meta property="og:description" content="Professional ICT consulting and web development services">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta property="og:image" content="https://yourwebsite.com/og-image.jpg">
+  
+  <link rel="stylesheet" href="./styles/styles.css">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
-    <div class="main">
-        <!-- Header Section -->
-        <header class="header">
-            <a href="#" class="logo">Faith Clifford</a>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#home"><i class="bi bi-house"></i> Home</a></li>
-                    <li><a href="#about"><i class="bi bi-person"></i> About</a></li>
-                    <li><a href="#services"><i class="bi bi-gear"></i> Services</a></li>
-                    <li><a href="#contact"><i class="bi bi-envelope"></i> Contact</a></li>
-                </ul>
-            </nav>
-        </header> 
 
-        <!-- Home Section -->
-        <section class="home" id="home">
-            <div class="home-text">
-                <h1>Hi, I'm Faith Clifford</h1>
-                <h3>IT Expert</h3>
-                <p>
-                    With a year of dedicated experience, I craft beautiful, responsive websites and provide creative solutions 
-                    to technical challenges. My passion lies in transforming ideas into powerful digital experiences.
-                </p>
-                <a href="https://wa.me/254714752876" class="btn" target="_blank" rel="noopener"><i class="bi bi-chat-dots"></i> Let's Talk</a>
-                 
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <a href="#" class="logo">Faith Clifford</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <i class="bi bi-list menu-icon" id="menu-toggle"></i>
+  </header>
 
-                <!-- Social Media Icons -->
-      <div class="home-icons">
-  <a href="https://www.facebook.com/profile.php?id=100090217450489" class="icon" aria-label="Facebook Profile" target="_blank" rel="noopener">
-    <i class="bi bi-facebook"></i>
-  </a>
-  </a>
-  <a href="https://www.linkedin.com/in/faith-kasyoka-9a7979281/" class="icon" aria-label="LinkedIn Profile" target="_blank" rel="noopener">
-    <i class="bi bi-linkedin"></i>
-  </a>
-  <a href="https://github.com/Faykasyoks" class="icon" aria-label="GitHub Profile" target="_blank" rel="noopener">
-    <i class="bi bi-github"></i>
-  </a>
-</div>
-            </div>
-            <div class="home-image">
-                <img src="./images/Image.jpg" alt="Faith Kasyoka - Web Developer" loading="lazy">
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section class="about" id="about">
-            <div class="about-container">
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>I am a dedicated professional with a passion for creating exceptional digital experiences. 
-                       My journey in web development has equipped me with the skills to deliver high-quality, 
-                       user-centric solutions that make a real impact.
-                    </p>
-                    <p>
-                        <strong>Vision</strong>
-                        To be a leading innovator in delivering cutting-edge solutions that drive success and growth 
-                        for my clients while pushing the boundaries of web development.
-                    </p>
-                    <p>
-                        <strong>Mission</strong>
-                        To design and develop high-quality, user-friendly websites and applications that not only 
-                        meet client needs but exceed their expectations through innovative solutions and attention to detail.
-                    </p>
-                </div>
-                <div class="about-image">
-                    <img src="./images/About.jpg" alt="About Faith Kasyoka" loading="lazy">
-                </div>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section class="services" id="services">
-            <h2>My Services</h2>
-            <div class="services-container">
-                <div class="service-item">
-                    <h3><i class="bi bi-code-slash"></i> Web Development</h3>
-                    <img src="./images/Image 8.jpg" alt="Web Development Services" loading="lazy">
-                    <p>Building responsive and user-friendly websites tailored to your needs.</p>
-                    <p>
-                        <strong>Services Include:</strong><br>
-                        <i class="bi bi-check2-circle"></i> Email setup<br>
-                        <i class="bi bi-check2-circle"></i> Data entry<br>
-                        <i class="bi bi-check2-circle"></i> E-commerce Development<br>
-                        <i class="bi bi-check2-circle"></i> Web Application Development<br>
-                        <i class="bi bi-check2-circle"></i> Website Maintenance and Support
-                    </p>
-                </div>
-                <div class="service-item">
-                    <h3><i class="bi bi-palette"></i>Remote IT Support</h3>
-                    <img src="./ICT consulting 2.jpg" alt="IT support Services" loading="lazy">
-                    <p>I support in all IT support services.</p>
-                    <p>
-                        <strong>Services Include:</strong><br>
-                        <i class="bi bi-check2-circle"></i> Software Installation & Configuration <br>
-                        <i class="bi bi-check2-circle"></i> Printer setup<br>
-                        <i class="bi bi-check2-circle"></i> scanner setup and support<br>
-                        <i class="bi bi-check2-circle"></i> Computer Maintenance
-Cleaning up slow computers (deleting junk files, uninstalling unused programs).<br>
-                    </p>
-                </div>
-                <div class="service-item">
-                    <h3><i class="bi bi-laptop"></i> Technical Consulting</h3>
-                    <img src="./images/it support.jpg" alt="Technical Consulting Services" loading="lazy">
-                    <p>Providing expert guidance and solutions for your technical challenges.</p>
-                    <p>
-                        <strong>Services Include:</strong><br>
-<i class="bi bi-check2-circle"></i> Website Setup & Design (Using Templates)<br>
-<i class="bi bi-check2-circle"></i> Social Media Page Creation<br>
-<i class="bi bi-check2-circle"></i> Basic Graphic Design (Logos, Flyers)<br>
-<i class="bi bi-check2-circle"></i> Document Typing & Formatting<br>
-<i class="bi bi-check2-circle"></i> Software Troubleshooting
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="contact" id="contact">
-            <h2>Get In Touch</h2>
-            <form action="#" method="post" class="contact-form">
-                <div class="form-group">
-                    <label for="name"><i class="bi bi-person"></i> Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email"><i class="bi bi-envelope"></i> Email</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message"><i class="bi bi-chat-dots"></i> Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                </div>
-                <button type="submit" class="btn">
-                    <i class="bi bi-send"></i> Send Message
-                </button>
-            </form>
-        </section>
+  <!-- ===== HOME ===== -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, I'm <span>Faith Clifford</span></h1>
+      <h3>ICT Graduate & Aspiring Front-End Developer</h3>
+      <p>Dedicated ICT professional with expertise in web development, system support, and IT solutions. Passionate about creating functional digital experiences.</p>
+      <div class="home-buttons">
+        <a href="https://wa.me/254748455489" target="_blank" class="btn">Get In Touch</a>
+        <a href="./CV/Faith Kasyoka CV.pdf" download class="btn btn-outline">
+          <i class="bi bi-download"></i> Download CV
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100090217450489" target="_blank" aria-label="Facebook Profile"><i class="bi bi-facebook"></i></a>
+        <a href="https://twitter.com/faithclifford" target="_blank" aria-label="Twitter Profile"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.instagram.com/faithclifford" target="_blank" aria-label="Instagram Profile"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/faithclifford" target="_blank" aria-label="LinkedIn Profile"><i class="bi bi-linkedin"></i></a>
+      </div>
     </div>
+    <div class="home-img">
+      <img src="https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-1/427956265_341560192194560_3195943465961255724_n.jpg?stp=c0.0.576.576a_dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e99d92&_nc_ohc=-tELksAb1N8Q7kNvwErXVrk&_nc_oc=AdnG2f-kS1DQY8cFk5K8taqXelw1p4QLN8Yx67vDHJOZuObGO3wBBwEIrEu9tZgPnUQ&_nc_zt=24&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=C4th4g3gs2dVv00t9hk6Vw&oh=00_AfY7d9W_1aKN9Bfk5z8FI64tz5qZWtGVu_Jasp8Z77bzQw&oe=68D448A6" alt="Portrait of Faith Clifford">
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>I am a dedicated Diploma in Information and Communication Technology (ICT) graduate with strong technical and problem-solving skills. My expertise spans website development, system support, and IT solutions for individuals and small businesses.</p>
+      <p>I am passionate about creating functional digital solutions and aspire to grow into a Front-End Developer. Currently, I'm enhancing my skills by learning graphic design to complement my web development journey, with the goal of combining design and coding skills to build visually appealing and user-friendly websites.</p>
+      <div class="about-stats">
+        <div class="stat">
+          <h3>2+</h3>
+          <p>Business Websites Built</p>
+        </div>
+        <div class="stat">
+          <h3>ICT</h3>
+          <p>Diploma Graduate</p>
+        </div>
+        <div class="stat">
+          <h3>Professional</h3>
+          <p>University Experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills" id="skills">
+    <h2 class="section-title">Skills & Expertise</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <i class="bi bi-code-slash"></i>
+        <h3>Website Development</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Responsive, user-friendly websites</li>
+          <li>Performance & accessibility optimization</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <i class="bi bi-pc-display"></i>
+        <h3>Computer Maintenance</h3>
+        <ul>
+          <li>Hardware diagnosis & repair</li>
+          <li>System upgrades & assembly</li>
+          <li>Preventive maintenance</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <i class="bi bi-gear"></i>
+        <h3>Software Installation</h3>
+        <ul>
+          <li>OS & application configuration</li>
+          <li>Software troubleshooting</li>
+          <li>User guidance & training</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <i class="bi bi-router"></i>
+        <h3>Network Configuration</h3>
+        <ul>
+          <li>LAN/WAN network setup</li>
+          <li>Connectivity troubleshooting</li>
+          <li>Router & wireless security</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <i class="bi bi-headset"></i>
+        <h3>Technical Support</h3>
+        <ul>
+          <li>Small business IT solutions</li>
+          <li>Data backup & cybersecurity</li>
+          <li>Remote & on-site assistance</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <i class="bi bi-palette"></i>
+        <h3>Graphic Design</h3>
+        <ul>
+          <li>Currently learning</li>
+          <li>Visual design principles</li>
+          <li>Brand identity creation</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="experience" id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-container">
+      <div class="experience-card">
+        <div class="experience-icon">
+          <i class="bi bi-building"></i>
+        </div>
+        <div class="experience-content">
+          <h3>ICT Attachment</h3>
+          <h4>Garissa University - ICT Department</h4>
+          <ul>
+            <li>Provided technical support to staff and students</li>
+            <li>Maintained computer labs and installed software</li>
+            <li>Troubleshot devices and network connectivity issues</li>
+            <li>Supported university network setup and configuration</li>
+            <li>Gained hands-on experience in professional ICT environment</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="experience-card">
+        <div class="experience-icon">
+          <i class="bi bi-code-square"></i>
+        </div>
+        <div class="experience-content">
+          <h3>Freelance Web Development</h3>
+          <h4>Client Projects & Business Websites</h4>
+          <ul>
+            <li>Developed responsive business websites for construction company</li>
+            <li>Created user-friendly interfaces with modern design principles</li>
+            <li>Implemented performance optimization and mobile responsiveness</li>
+            <li>Collaborated directly with clients to understand requirements</li>
+            <li>Delivered projects on time while maintaining quality standards</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="experience-card">
+        <div class="experience-icon">
+          <i class="bi bi-laptop"></i>
+        </div>
+        <div class="experience-content">
+          <h3>Academic Projects</h3>
+          <h4>College & Personal Development</h4>
+          <ul>
+            <li>Developed e-commerce fruit ordering system as final year project</li>
+            <li>Implemented database design and PHP backend functionality</li>
+            <li>Created shopping cart, order management, and user authentication</li>
+            <li>Applied software development lifecycle principles</li>
+            <li>Enhanced problem-solving and project management skills</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="./images/Majoph.png" alt="Majoph">
+        <div class="project-content">
+          <h3>Majoph Construction Company</h3>
+          <p>Responsive business website with modern design and optimized performance. The client wanted a simple website for their Company. Built with HTML, CSS, and JavaScript.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="https://majophs.vercel.app/" target="_blank" class="btn project-link">
+            <i class="bi bi-eye"></i> View Project
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250/ff4081/ffffff?text=Business+Website+2" alt="Business Website Project 2">
+        <div class="project-content">
+          <h3>Business Website #2</h3>
+          <p>Professional business website featuring responsive design and seamless user experience across all devices.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <a href="https://your-project2-url.com" target="_blank" class="btn project-link">
+            <i class="bi bi-eye"></i> View Project
+          </a>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="./images/Kilungu.png" alt="Kilungu Fruit Ordering System">
+        <div class="project-content">
+          <h3>Kilungu Fruit Ordering System</h3>
+          <p>Complete e-commerce platform specifically designed for fresh fruit delivery. Customers can browse seasonal fruits, add items to cart, and place orders for home delivery. Features include fruit categorization, freshness indicators, and order tracking.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>MySQL</span>
+          </div>
+          <a href="https://kilungufruits.infinityfreeapp.com/" target="_blank" class="btn project-link">
+            <i class="bi bi-eye"></i> View Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form" action="/submit-contact" method="POST" id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+      <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+      <textarea name="message" placeholder="Your Message" rows="5" required aria-label="Your Message"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div id="form-status" class="form-status" style="display: none;"></div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; 2025 Faith Clifford. All Rights Reserved.</p>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/profile.php?id=100090217450489" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com/faithclifford" target="_blank" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+      <a href="https://www.instagram.com/faithclifford" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/faithclifford" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script>
+    // Navbar toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const navbar = document.querySelector('.navbar');
+    menuToggle.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+        navbar.classList.remove('active');
+      });
+    });
+
+    // Form submission handling
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const formStatus = document.getElementById('form-status');
+      const formData = new FormData(this);
+      
+      // Show loading state
+      formStatus.style.display = 'block';
+      formStatus.textContent = 'Sending message...';
+      formStatus.className = 'form-status loading';
+      
+      // Simulate form submission (replace with actual endpoint)
+      setTimeout(() => {
+        formStatus.textContent = 'Message sent successfully! I\'ll get back to you soon.';
+        formStatus.className = 'form-status success';
+        this.reset();
+        
+        setTimeout(() => {
+          formStatus.style.display = 'none';
+        }, 5000);
+      }, 1500);
+    });
+  </script>
 </body>
-</html>  
+</html>
